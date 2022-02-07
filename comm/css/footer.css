@@ -1,0 +1,26 @@
+footer {
+    height: 100px;
+    margin-top: 30px;
+    border-top: solid 1px #bbbbbb;
+}
+footer #git {
+    float: left;
+    margin: 5px 0 0 210px;
+    padding-right: 50px;
+    width: 70px;
+}
+footer #address {
+    float: left;
+    margin: 20px 0 0 50px;
+}
+footer #footer_sns {
+    float: right;
+    margin: 0 10px 0 0;
+}
+footer #footer_sns li {
+    display: inline;
+}
+footer #footer_sns #footer_logo {
+    width: 80px;
+    
+}

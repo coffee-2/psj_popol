@@ -1,0 +1,78 @@
+﻿* {
+    margin:0;
+    padding:0;
+}
+body {
+    font-family:"맑은 고딕", "돋움";
+    font-size:12px;
+    color:#444444;
+    background-color: rgb(245, 244, 244);
+}
+ul {
+    list-style-type:none;
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration:none;
+    color:#444444;
+}
+.clear {
+    clear:both;
+}
+/* ---------- 헤더 ------------- */
+header {
+    height:128px;
+}
+header #top {
+    width:990px;
+    margin:0 auto;
+}
+header #top img {
+    margin-top: 15px;
+    width: 200px;
+}
+/* 메인 메뉴 */
+header #main_menu {
+    height: 50px;
+    margin-top: 15px;
+    background-color: rgb(63, 157, 194);
+}
+header #main_menu ul {
+    width:990px;
+    margin:auto;
+    padding-top:15px;
+    text-align:center;
+    font-size: 15px;
+}
+header #main_menu li {
+    display:inline;
+    margin:0 50px;
+}
+header #main_menu a:link {
+    color:#ffffff;
+}
+header #main_menu a:visited {
+    color:#ffffff;
+}
+header #main_menu a:hover {
+    color:#ffffff;
+}
+header #main_menu a:active {
+    color:#ffffff;
+}
+/* ------------- 푸터 ----------------- */
+footer {
+    height: 50px;
+}
+footer #footer_box {
+    width:990px;
+    margin-left: 40%;
+}
+footer #footer_box #git {
+    float:left;
+    width: 55px;
+}
+footer #footer_box #phone {
+    margin:10px 0 20px 150px;
+    font-size: 15px;
+    width: 300px;
+}

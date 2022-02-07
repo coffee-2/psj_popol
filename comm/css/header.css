@@ -1,0 +1,48 @@
+/* 상단 헤더 */
+header {
+    height:100px;
+    position:relative;
+}
+header #logo {
+    position:absolute;
+    top:10px;
+    left:20px;
+    width: 100px;
+    height: 80px;
+}
+header #top_menu {
+    position:absolute;
+    top:10px;
+    left:770px;
+}
+header #main_menu {
+    width:757px;
+    height:38px;
+    background-color: rgb(189, 67, 67);
+    background-repeat:no-repeat;
+    border-radius: 15%;	
+    position:absolute;
+    top:40px;
+    left:210px;
+}
+header #main_menu li {
+    display:inline-block;
+    margin:12px 30px 0 50px;
+    font-size:13px;
+}
+header #main_menu a:link {
+    text-decoration:none;
+    color:#ffffff;
+}
+header #main_menu a:hover {
+    text-decoration:none;
+    color:#ffffff;
+}
+header #main_menu a:visited {
+    text-decoration:none;
+    color:#ffffff;
+}
+header #main_menu a:active {
+    text-decoration:none;
+    color:#ffffff;
+}

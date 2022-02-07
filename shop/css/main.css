@@ -1,0 +1,119 @@
+﻿/* 메인 콘텐츠 */
+section#main {
+    width:990px;
+    margin:auto;
+}
+/* 좌측 카테고리 + 메인 이미지 + 공지사항 */
+section#cat1 {
+    width:215px;
+    float:left;
+    margin-top:32px;
+    font-weight:bold;
+}
+section#cat1 #cat_title {
+    padding:10px;
+    background-color:#7abfc2;
+    color:#ffffff;
+    text-align:center;
+    font-size: 15px;
+}
+section#cat1 li {
+    color:#666666;
+    padding:20px 0 15px 0;
+    border-bottom:solid 1px #cccccc;
+    font-size: 15px;
+    text-align: center;
+}
+section#cat2 {
+    float:left;
+    margin-top:32px;
+}
+section#cat2 img {
+    width: 550px;
+    height: 320px;
+}
+section#cat3 {
+    width: 200px;
+    float:left;
+    margin-top:32px;
+}
+section#cat3 #latest_notice {
+    width: 280px;
+    height:299px;
+    font-size: 16px;
+    border-bottom: solid 1px #cccccc;
+}
+section#cat3 #latest_notice #notice {
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+section#cat3 #latest_notice ul {
+    padding:42px 0 0 50px;
+    list-style-type: square;
+}
+section#cat3 #latest_notice li {
+    padding: 10px;
+}
+/* 특가 상품(special shop) */
+section#special_shop {
+    width: 1045px;
+    height:359px;
+    margin-top: 20px;
+    background-repeat:no-repeat;
+}
+section#special_shop #special_price{
+    text-align: center;
+    font-size: 25px;
+    color: red;
+    text-shadow: 2px 2px 2px yellow;
+}
+section#special_shop ul {
+    margin:10px 0 0 30px;
+}
+section#special_shop li {
+    display:inline;
+    margin:0 2px;
+}
+section#special_shop #soccer {
+   width: 200px;
+   height: 200px;
+   padding: 19px;
+}
+/* 둘러보기 */
+section#look {
+    height:650px;
+    margin-top:20px;
+    padding-left: 20%;
+    border-top:solid 5px rgb(63, 157, 194);
+}
+section#look h2 {
+    margin:20px 0 0 545px;
+    font-size: 25px;
+}
+section#look .item{
+    float: left;
+    text-align: center;
+    margin: 35px 0 0 80px;
+}
+section#look #look_soccer {
+    width: 200px;
+}
+section#look .item .subject{
+    margin-top:10px;
+    color: #205ca0;
+    font-size: 18px;
+}
+section#look .item .comment{
+    margin-top:5px;
+    color:#888888;
+    font-size: 15px;
+}
+section#look .item .price{
+    margin-top:5px;
+    font-weight:bold;
+    font-size: 15px;
+}
+section#look .item .price a:hover{
+    color: rgb(80, 156, 73)
+}
